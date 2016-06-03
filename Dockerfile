@@ -1,8 +1,6 @@
 # Pull base image  
-FROM ubuntu:13.10  
-  
-MAINTAINER zing wang "zing.jian.wang@gmail.com"  
-  
+FROM ubuntu
+
 # update source  
 RUN echo "deb http://archive.ubuntu.com/ubuntu precise main universe"> /etc/apt/sources.list  
 RUN apt-get update  
